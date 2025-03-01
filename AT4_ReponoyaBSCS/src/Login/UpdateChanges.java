@@ -55,7 +55,7 @@ public class UpdateChanges extends javax.swing.JFrame {
             }
         }
         
-        //as we can see in the image, we then created a new instance of the nested `HelperInput` class, so that
+        //as we can see, we then created a new instance of the nested `HelperInput` class, so that
         //we can actually utilized the method.
         HelperInput helper = new HelperInput();
         
