@@ -312,7 +312,7 @@ public class UpdateAccount extends javax.swing.JFrame {
         //whenever when the user actually promps a valid user id.
         String value = (String) foundAccount.get(key);
         
-        //as we can see in the image, if the `input` or the text field is blank
+        //as we can see, if the `input` or the text field is blank
         //or if the input provided in the text field is already the mapped vlaue
         //then we basically return false, implying nothing has changed.
         if(input.isBlank() || value.equals(input)) {
@@ -340,7 +340,7 @@ public class UpdateAccount extends javax.swing.JFrame {
     //this method will run each time we click the `update` button
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
-        //as we can see in the image, if the `foundAccount` or if the user actually
+        //as we can see, if the `foundAccount` or if the user actually
         //promps an account that is valid or exists in our json file then we want to run
         //the following code.
         if(foundAccount != null){
