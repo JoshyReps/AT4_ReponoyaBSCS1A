@@ -278,7 +278,7 @@ public class UsernamePassword extends javax.swing.JFrame {
     //this is the back button method.
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 
-        //as we can see in the image, when we click this button, we basically
+        //as we can see, when we click this button, we basically
         //dispose the instance and then set the `signUp` visibility to true, in order
         //maintain the fields that was typed on that interface withotu disposing it or
         //creating a new instnace of the `SignUp` class.
